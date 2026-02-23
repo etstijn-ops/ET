@@ -1,0 +1,49 @@
+name: sprint_timer
+description: A professional sprint timing app with BLE chip support
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # BLE
+  flutter_blue_plus: ^1.14.0
+
+  # State management
+  provider: ^6.1.1
+
+  # Local storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # CSV export
+  csv: ^6.0.0
+
+  # File saving / sharing
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+  # UUID generation
+  uuid: ^4.2.2
+
+  # Animations
+  flutter_animate: ^4.3.0
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
