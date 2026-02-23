@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace "com.example.sprint_timer"
-    compileSdk 35
+    compileSdk 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -24,8 +24,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.sprint_timer"
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion 35
+        minSdkVersion 21
+        targetSdkVersion 34
         versionCode flutter.versionCode
         versionName flutter.versionName
     }
